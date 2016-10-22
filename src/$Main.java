@@ -16,7 +16,7 @@ public class $Main {
         char c1=20320;
         System.out.print(c2);//单行注释
 
-
+        String s="";
 
     }
 

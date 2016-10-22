@@ -1,0 +1,27 @@
+1.基本类型（栈）：primitive type:
+  整数类型：byte(8bit),short(16bit---2byte),int(32bit--4byte),long(64bit--8byte)
+  浮点类型：float(32bit---4byte),double(64bit---8byte)
+  字符类型：char(16bit,2byte)
+  布尔类型：boolean(1bit--0  1)
+
+2.引用类型(栈，堆)：reference type
+  C++,指针类型，null，array,class,interface，enum...
+3.stack:栈
+  heap:堆
+5.10进制：没啥说的，默认就是
+  8进制：0?  [0----7]
+  16进制 0x? [0--9  A-F]
+  2进制 0b? [0-1]
+6.java默认的整数类型：int
+  java默认的浮点类型：double:精度特别高，小数点位数特别多
+7.byte:-128---127
+  short:-32768--32767
+8科学技术法必须是浮点
+9.incompatible:不兼容的
+10.ArithmeticException:算术异常
+11.作业：A:65 Z:90 a:97 z:122 \n:10 \b:8 \t:9 \r:13
+12。特殊记住\u000A，因为他表示啥也没有，不能够声明char。
+13.自动类型转换：小类型----大类型
+
+14.作业：实验 char-->short--byte 是否能相互转
+15。所有数据类型都是轮回显示的，不会越界。
