@@ -1,0 +1,16 @@
+1.ArthmeticException:算术异常。
+2.Comparable:比较
+3.作业，测试~2 ~3 ~4，为啥是那个结果，用纸推导出来。
+4.x<<n：是乘法:x*2(n)
+  x>>n:正数 是除法:x/2(n)
+5.作业：测试 & && | ||的区别
+6.assign：赋值
+7.作业：闰年，平年
+8. 全局变量：global variable
+   局部变量：local  variable
+9.primitive type:原始类型，只有栈 stack
+  reference type:引用类型，有堆 heap栈。
+10.initXXXX:初始化
+11.局部变量使用前必须初始化
+12.context:上下文
+   content：内容
