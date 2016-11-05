@@ -1,3 +1,5 @@
+import java.util.Arrays;//include C# using
+
 /**
  * Created by Administrator on 2016/11/5.
  */
@@ -6,7 +8,65 @@ public class N {
 //        getMax();
 //        getAvg();
 
-        reverseArry();
+        //jdkBinary();
+
+        System.out.print(erFen());
+    }
+    static int erFen(){
+        int a[]={9,1,2,5,4,7};
+        int key=70;
+        Arrays.sort(a);
+        int lo=0;
+        int hi=a.length-1;
+        while(lo<=hi){
+            //mid:相对中间的索引号
+            int mid=(lo+hi)/2;
+            if(key<a[mid]){//
+                hi=mid-1;
+            }else if(key>a[mid]){
+                lo=mid+1;
+            }else{
+                return mid;
+            }
+        }
+        return -1;
+    }
+    static void jdkBinary(){
+
+        int a[]={5,7,1,2,3,4};
+        int key=1;
+        Arrays.sort(a);
+
+        System.out.println(Arrays.binarySearch(a,6));
+
+    }
+    static void jdkCopy1(){
+        int a[]={1,2,3,4,5};
+        int b[]=Arrays.copyOf(a,10);
+        for(int i:b){
+            System.out.println(i);
+
+        }
+    }
+    static void jdkFill(){
+        int a[]={1,2,3,4,5};
+
+        Arrays.fill(a,0);
+        for(int i:a){
+            System.out.println(i);
+
+        }
+    }
+    static void jdkCopy(){
+
+        int a[]={1,2,3,4,5};
+        int b[]={6,7,8,9,10};
+
+        System.arraycopy(a,1 , b,2 , 4);//越界了，
+        for(int i:b){
+            System.out.println(i);
+
+        }
     }
     static void getMax(){
         int a[]={4,1,2,3,5};
