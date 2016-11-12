@@ -10,12 +10,21 @@ public class T {
 //        t.half(m);
 //        System.out.print(m);
 
+//        T t=new T();
+//        Date d=new Date();
+//        System.out.print(d);
+//        t.half1(d);
+//        System.out.print(d);
         T t=new T();
-        Date d=new Date();
-        System.out.print(d);
-        t.half1(d);
-        System.out.print(d);
+        String s="123";
+        t.half2(s);//引用类型一定传的是地址，String：是常量
+        System.out.println(s);
+
     }
+    void half2(String s){
+        s="456";
+    }
+
     void half1(Date d){//引用类型做形参，传递的是地址，就是自己，引用传递
         d.setYear(113);//设置年 1900+?
 
