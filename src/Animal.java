@@ -9,20 +9,20 @@ public class Animal {
         return  name;
 
     }
-    public void setName(String name1){
-        name=name1;
+    public void setName(String name){
+        this.name=name;
 
     }
     public char getSex(){
         return sex;
     }
-    public void setSex(char sex1){
-       if(sex1!='M'){
-           sex1='M';
+    public void setSex(char sex){
+       if(sex!='M'){
+           sex='M';
            System.out.println("你傻X啊");
            return;
        }
-       sex=sex1;
+       this.sex=sex;
 
     }
 }
