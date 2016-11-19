@@ -9,6 +9,9 @@ public class C extends C0 {
 
     int age=100;
 
+
+
+
     public static void main(String[] args) {
         new C().c.age=200;
     }
