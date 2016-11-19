@@ -1,0 +1,20 @@
+1.package:包:区分在同一目录下的类，防止出现重复。
+2.引包：C++ include 头文件
+        java import package
+        C# using namespace
+3.作业：观察他们的关系，
+   private:私有的：只能自己用其成员，工具成员：
+  [default]:同一个包下，且子类继承父类，实例化子类，可以用父类的default的成员。
+  protected:在不同包下，且子类继承父类，实例化子类，可以用父类的protected的成员。
+  public:公共的：所有的成员
+4.static:先有，
+  dynamic：后有
+  symbol:标记
+  ambiguous:两义性
+5.类成员：类.成员，成员必须是静态的
+6.static初始化块，必须先存在，跟类有关系，跟对象无关。
+  作业：static{} {} this(，) super(，) 构造器 看齐运行先后顺序
+7.final:
+  变量：最终变量，不能被修改
+  方法：不能被重写
+  类：不能被继承 （String,Math）
