@@ -6,12 +6,25 @@ package com.weikun.B;
 public class G {
     public static void main(String[] args) {
         G g=new G();
-        g.mark(new G0());
-        g.mark(new G1());
+//        g.mark(new G0());
+//        g.mark(new G1());
+
+        g.bark(1).go();
+        g.bark(2).go();
     }
     void mark(G00 g1){
         g1.go();
     }
+    G00 bark(int i){
+        switch (i){
+            case 1:
+                return new G0();
+            case 2:
+                return new G1();
+        }
+        return null;
+    }
+
 
 }
 class G1 extends G00{
