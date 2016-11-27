@@ -1,0 +1,10 @@
+1.new Date();
+2.SimpleDateFormat TimeZone  GMT+8
+3.yyyy  MM dd DDD HH hh mm ss w
+4.Calendar c=Calendar.getInstance();
+5.作业：月历牌
+6.作业：你用最好的算法，写a-z的随机10个数，且不能重复
+7.作业：StringBuffer StringBuilder的简单用法 insert append delete reverse substring indexOf lastIndexOf
+8.String:是比较特殊的，当值一样，java为了省空间，一定是一个堆，除非你用new，强开堆。
+9如果你想判断其堆的内容是否相等，一定用equals，如果你想判断栈中的值是否相等，一定用==
+10.作业：重写equals。比较自己写的类是否相等（age address,salary）
