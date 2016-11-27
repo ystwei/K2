@@ -1,0 +1,11 @@
+1.concat
+2.equals equalsIgnoreCase
+3.valueOf
+
+4作业：去掉中间空格 A B C D
+5.split
+6.trim
+7.toUpperCase toLowerCase
+8.indexOf lastIndexOf
+9.startWith endsWith :前缀:prefix 后缀:suffix
+10.作业：浅克隆,深克隆。

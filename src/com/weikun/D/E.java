@@ -1,5 +1,7 @@
 package com.weikun.D;
 
+import java.util.Calendar;
+
 /**
  * Created by Administrator on 2016/11/26.
  */
@@ -35,5 +37,8 @@ public class E {
         System.out.printf("字符串：%2$s，%1$d的十六进制数：%1$#x",i,s);
         System.out.println();
         System.out.printf("%14.3s",s);
+        Calendar c= Calendar.getInstance();
+
+
     }
 }
