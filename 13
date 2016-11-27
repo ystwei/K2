@@ -9,3 +9,26 @@
 8.indexOf lastIndexOf
 9.startWith endsWith :前缀:prefix 后缀:suffix
 10.作业：浅克隆,深克隆。
+11.异常：Exception:
+                    Throwable
+   错误：Error
+12.NullPointerException:空指针异常
+13.ArithmeticException:算术异常
+14.ArrayIndexOutOfBoundsException:数组越界异常
+15.IOException：
+     EOFException:是否到文件末尾
+     FileNotFoundException:文件未找到异常。
+     SocketException:套接字异常
+   RuntimeException：
+     ArithmeticException
+     NullPointerException
+     ClassNotFoundException:类没找到异常
+     ClassCastException:类转换异常
+     ArrayIndexOutOfBoundsException:数组越界异常
+   SQLException
+   NumberFormatException
+   NoSuchMethodException:
+16.在方法重写中，父亲抛出的异常一定比儿子范围大，也就是他的父亲或者自己
+17.作业：正方形和圆形面积，自定义异常。
+
+

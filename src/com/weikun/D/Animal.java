@@ -6,6 +6,7 @@ package com.weikun.D;
 public class Animal implements Comparable {
     private int age;
     private String name;
+
     private String pinyin;
 
     public Animal() {
