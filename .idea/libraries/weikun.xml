@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="weikun">
+    <CLASSES>
+      <root url="jar://C:/weikun.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/weikun.jar!/" />
+    </SOURCES>
+  </library>
+</component>
