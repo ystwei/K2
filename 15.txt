@@ -1,7 +1,17 @@
 1.字节流：InputStream OutputStream
   作业：拷贝个电影，并和系统比较谁速度快
-  作业：拷贝目录,带秒的
+
 
 2.字符流：Reader Writer
 3.Buffer
   Cache
+4.FileInputStream FileOutputStream
+  BufferedInputStream BufferedOutputStream
+  BufferedReader BufferedWriter
+  InputStreamReader OuputStreamWriter
+  System.in  Scnnaner
+  ByteArrayInputStream ByteArrayOutputStream
+  作业：RandomAccessFile seek Merge
+  Serializable:序列化
+5.没事看看 大文件切割小文件 小文件合并大文件
+6. 作业：拷贝目录,带秒的
