@@ -1,4 +1,12 @@
 1. List：ArrayList遍历5种。
 作业：冰箱，购物车
-
+2.Linkedlist:经常用来做增删。
+  add,addFirst addLast offer offerFirst offerLast,push poll pollFirst pollLast peek
+  peekFirst peekLast pop remove removeFirst removeLast
+3.Hashtable :线程同步的，：Synchronized
+  作业：5种遍历，
+  HashMap：1.table继承自Dictionary，Map的父亲是AbstractMap,
+           2.table还不能存空键和空值，map存一个空键,
+           3.table是安全的，map是不安全的。
+  作业：Map和table的排序
 Vector
