@@ -9,6 +9,10 @@ public class A {//inner class
         void go(){
             System.out.println("ok");
         }
+
+
+
+
     }
 //    void mark(){
 //        new A0().go();
