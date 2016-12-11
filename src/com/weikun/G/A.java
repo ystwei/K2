@@ -13,7 +13,13 @@ public class A {
         Vector v=new Vector();
         v.add("A");
         v.add("B");
+
+
+
         v.add("C");
+
+
+
 
         Enumeration es=v.elements();
         while(es.hasMoreElements()){
@@ -23,7 +29,7 @@ public class A {
     }
     @Test
     public void test() {
-        List list = new ArrayList();//¶àÌ¬--Ðé·½·¨µ÷ÓÃ
+        List list = new ArrayList();//ï¿½ï¿½Ì¬--ï¿½é·½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
         list.add("A");
         list.add("B");
