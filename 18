@@ -1,0 +1,11 @@
+1.进程：Process
+2.线程：Thread
+  继承Thread
+  实现Runnable
+3真正让当前线程停下来，使用boolean类型或者break，
+ Interrupt中断，也可以停止线程，但是他需要三种状态
+ sleep,wait,join
+4.setName setPriority yield join
+5.Timer TimerTask
+6.作业线程同步
+7.作业线程通信，用通信拷贝目录，
