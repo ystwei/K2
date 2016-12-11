@@ -9,6 +9,9 @@ public abstract class C {
     void bark(){//可以写一般方法，private default protected public
 
     }
-    abstract void go();//
+    abstract void go();//、
+
+
+
 }
 
