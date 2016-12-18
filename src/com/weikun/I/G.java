@@ -21,17 +21,17 @@ class G0 extends TimerTask{
         this.timer = timer;
     }
 
-    private int imgIndex;//æ¯å¼ å›¾ç‰‡ç´¢å¼•å·
-    private int imgCount;//æ€»å…±å›¾ç‰‡çš„ä¸ªæ•°
-    private Timer timer;//è®¡æ—¶å™¨
+    private int imgIndex;//Ã¿ÕÅÍ¼Æ¬Ë÷ÒıºÅ
+    private int imgCount;//×Ü¹²Í¼Æ¬µÄ¸öÊı
+    private Timer timer;//¼ÆÊ±Æ÷
     @Override
     public void run() {
-        if(++imgIndex<=imgCount){//å½“å‰å›¾ç‰‡ç´¢å¼•å·å°äºæ€»å…±çš„æ•°é‡ï¼Œ
-            System.out.println("æ¸¸æˆæ­£åœ¨åŠ è½½å›¾ç‰‡:"+imgIndex);
+        if(++imgIndex<=imgCount){//µ±Ç°Í¼Æ¬Ë÷ÒıºÅĞ¡ÓÚ×Ü¹²µÄÊıÁ¿£¬
+            System.out.println("ÓÎÏ·ÕıÔÚ¼ÓÔØÍ¼Æ¬:"+imgIndex);
 
         }else{
-            System.out.println("æ¸¸æˆåŠ è½½æˆåŠŸï¼");
-            timer.cancel();//å…³é—­è®¡æ•°å™¨
+            System.out.println("ÓÎÏ·¼ÓÔØ³É¹¦£¡");
+            timer.cancel();//¹Ø±Õ¼ÆÊıÆ÷
         }
     }
 }

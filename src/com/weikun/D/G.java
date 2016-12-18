@@ -13,17 +13,17 @@ public class G {
 //
 //
 
-        System.out.println((int)'çŒª');
-        System.out.println((int)'çŒ«');
-        System.out.println((int)'é±¼');
+        System.out.println((int)'Öí');
+        System.out.println((int)'Ã¨');
+        System.out.println((int)'Óã');
         Animal [] as={
-                new Animal(10,"çŒª","zhu"),
-                new Animal(10,"çŒ«","mao"),
-                new Animal(12,"çŒ«","mao"),
-                new Animal(20,"é±¼","yu")};
+                new Animal(10,"Öí","zhu"),
+                new Animal(10,"Ã¨","mao"),
+                new Animal(12,"Ã¨","mao"),
+                new Animal(20,"Óã","yu")};
         Arrays.sort(as);
-        System.out.println(Arrays.binarySearch(as,new Animal(12,"çŒ«","mao")));
-       // System.out.println(as[0].getName());
+        System.out.println(Arrays.binarySearch(as,new Animal(12,"Ã¨","mao")));
+        // System.out.println(as[0].getName());
         //System.out.println(as[1].getName());
 
 //        for(int i=0;i<as.length;i++){

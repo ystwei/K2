@@ -1,0 +1,14 @@
+1.作业：
+设计模式：Design Pattern
+  A.Facade Pattern：门面设计模式:
+  B.Singleton Pattern:单子设计模式
+    1.私有化构造器，声明个私有的自己对象 ，返回一个私有的自己
+    2.私有化构造器，声明个私有的自己对象 ，返回一个私有的自己，加上synchronized
+    3.私有化构造器，声明个私有的自己对象 ，返回一个私有的自己（内部类版本）
+    4.私有化构造器，声明个私有的自己对象 ，返回一个私有的自己，加上synchronized volatile(JVM上进行锁定)
+  C.Adapter Pattern:适配器设计模式
+    1.类的适配器
+    2.对象的适配器
+  D.Observer Pattern:观察者模式：
+  E.Decorator Pattern：装饰者模式
+  F:Command Pattern：命令设计模式

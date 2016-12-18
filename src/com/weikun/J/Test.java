@@ -5,12 +5,12 @@ package com.weikun.J;
  */
 public class Test {
     public static void main(String[] args) {
-        //åˆ›å»ºä¸€ä¸ªè´¦æˆ·
+        //´´½¨Ò»¸öÕË»§
         Account acct = new Account("1234567" , 0);
 
-        new SaveThread("å­˜æ¬¾è€…ç”²" , acct , 1500).start();
-        new GetThread("å–é’±è€…" , acct , 800).start();
+        new SaveThread("´æ¿îÕß¼×" , acct , 1500).start();
+        new GetThread("È¡Ç®Õß" , acct , 800).start();
 
-       // new SaveThread("å­˜æ¬¾è€…ä¸™" , acct , 800).start();
+       // new SaveThread("´æ¿îÕß±û" , acct , 800).start();
     }
 }

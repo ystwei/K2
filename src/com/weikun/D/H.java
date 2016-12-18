@@ -5,12 +5,12 @@ package com.weikun.D;
  */
 public class H {
     public static void main(String[] args) {
-        Stu stu=new Stu("ç”·");
+        Stu stu=new Stu("ÄÐ");
         Professional p=new Professional(10,"MIKE",stu);
         System.out.println(p.getStu().getSex());
         try {
             Professional p1=(Professional)p.clone();
-            p.getStu().setSex("å¥³");
+            p.getStu().setSex("Å®");
             System.out.println(p1.getStu().getSex());
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();

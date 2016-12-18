@@ -6,10 +6,10 @@ package com.weikun.H;
 public class Test {
     public static void main(String[] args) {
         Account a=new Account("001",800);
-        DrawMoney d=new DrawMoney(a,"ç”²",800);
+        DrawMoney d=new DrawMoney(a,"¼×",800);
         d.start();
 
-        DrawMoney d1=new DrawMoney(a,"ä¹™",800);
+        DrawMoney d1=new DrawMoney(a,"ÒÒ",800);
         d1.start();
     }
 }

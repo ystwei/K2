@@ -54,7 +54,7 @@ public class B {
         File file=new File("c://44.txt");
         try (Writer w=new FileWriter(file);){
 
-           w.write("ä½ å¥½");
+           w.write("ÄãºÃ");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -105,7 +105,7 @@ public class B {
     public void writeFile() {
         try (FileOutputStream fos=new FileOutputStream("c://33.txt")){
 
-            fos.write("ä½ å¥½ï¼Œä¸–ç•Œ".getBytes());
+            fos.write("ÄãºÃ£¬ÊÀ½ç".getBytes());
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -2,7 +2,7 @@
  * Created by Administrator on 2016/10/29.
  */
 public class I {
-    static void half(int m){//intï¼šåŸºæœ¬ç±»å‹ï¼Œå°±æ˜¯åŸºæœ¬ç±»å‹çš„å€¼ä¼ é€’
+    static void half(int m){//int£º»ù±¾ÀàĞÍ£¬¾ÍÊÇ»ù±¾ÀàĞÍµÄÖµ´«µİ
         m=m/2;
         System.out.println(m);
     }
@@ -10,12 +10,12 @@ public class I {
 
         //20 40 60
         int old=45;
-        if( (old>20)&&(old<40)  ){//åŒºé—´å¼
+        if( (old>20)&&(old<40)  ){//Çø¼äÊ½
 
-            System.out.print("é’å¹´äºº");
+            System.out.print("ÇàÄêÈË");
         }else if((old>40)&&(old<60)){
 
-            System.out.print("ä¸­å¹´äºº");
+            System.out.print("ÖĞÄêÈË");
         }
     }
 
@@ -36,9 +36,9 @@ public class I {
 
         }
     }
-    static void ok(){//é—°å¹´
+    static void ok(){//ÈòÄê
         int i=200;
-        if(i==100){//å¦‚æœiç­‰äº100
+        if(i==100){//Èç¹ûiµÈÓÚ100
 
            System.out.print("ok");
         }else{

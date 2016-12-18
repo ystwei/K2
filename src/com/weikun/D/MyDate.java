@@ -22,7 +22,7 @@ public class MyDate {
         if(this==obj){
            return true;
         }
-        if(obj==null){//objæ²¡å † thisæ˜¯æœ‰å †çš„å¯¹è±¡
+        if(obj==null){//objÃ»¶Ñ thisÊÇÓÐ¶ÑµÄ¶ÔÏó
             return false;
         }
         if(this.getClass()!=obj.getClass()){
@@ -37,8 +37,8 @@ public class MyDate {
     }
 
     public static void main(String[] args) {
-        MyDate m=new MyDate(2016,11,26,"ç”·");
-        MyDate m1=new MyDate(2016,11,26,"å¥³");
+        MyDate m=new MyDate(2016,11,26,"ÄÐ");
+        MyDate m1=new MyDate(2016,11,26,"Å®");
         System.out.print(m.equals(m1));
     }
 }
