@@ -31,9 +31,9 @@ public class I {
 
         }
     }
-    static void ok(){//????
+    static void ok(){//
         int i=200;
-        if(i==100){//???i????100
+        if(i==100){//
 
            System.out.print("ok");
         }else{

@@ -24,6 +24,5 @@ public class M {
             System.out.println(a2[i]);
         }
 
-
     }
 }
