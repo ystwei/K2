@@ -12,6 +12,8 @@
     <file url="file://$PROJECT_DIR$/src/N.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/Q.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/D/G.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/L/MyServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/M/MyServer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/dproxy/MyProxy.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/dproxy/RealSubject.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/dproxy2/MyInterector.java" charset="GBK" />
