@@ -2,24 +2,19 @@
  * Created by Administrator on 2016/10/29.
  */
 public class I {
-    static void half(int m){//int????????????????????????????
+    static void half(int m){//int
         m=m/2;
         System.out.println(m);
     }
     static void ok1(){
-
         //20 40 60
         int old=45;
-        if( (old>20)&&(old<40)  ){//?????
-
-            System.out.print("??????");
+        if( (old>20)&&(old<40)  ){//
+            System.out.print("成年");
         }else if((old>40)&&(old<60)){
-
-            System.out.print("??????");
+            System.out.print("老年");
         }
     }
-
-
     static void ok2(){
         int  age=45;
         if(age>60){
