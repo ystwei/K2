@@ -8,15 +8,15 @@ public class M {
     static int old=200;
     public static void main(String[] args) {
         int p=100;//static--->dynamic
-        String s="ä½ å¥½";
+        String s="ÄãºÃ";
         int [] a=new int[10];//float 0.0 char=/u0000 boolean =false
-        int [] a1={0,1,2,3,4,5};//åªé€‚ç”¨äºå°‘å…ƒç´ çš„æƒ…å†µ
+        int [] a1={0,1,2,3,4,5};//Ö»ÊÊÓÃÓÚÉÙÔªËØµÄÇé¿ö
         int [] a2=new int[]{1,2,3,4,5,6,7,8,9,0};
-//        for(int i=0;i<a2.length;i++){//ä¸é™é‡çš„æƒ…å†µ
+//        for(int i=0;i<a2.length;i++){//²»ÏŞÁ¿µÄÇé¿ö
 //            a2[i]=0;
 //        }
-        System.out.println("é›¾éœ¾å¥½ä¸¥é‡".length());
-        for(int t   :a2 ){//èµ‹å€¼ä¸å¯ä»¥ï¼Œå®ƒæ˜¯readonly
+        System.out.println("Îíö²ºÃÑÏÖØ".length());
+        for(int t   :a2 ){//¸³Öµ²»¿ÉÒÔ£¬ËüÊÇreadonly
             t=0;
         }
         for(int i=0;i<a.length;i++){

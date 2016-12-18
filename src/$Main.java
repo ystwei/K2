@@ -1,20 +1,20 @@
 /**
-       authorï¼šå«æ˜†
-       date:2016-10-21
-       å¿ƒæƒ…ï¼š
-    */
+ author£ºÎÀÀ¥
+ date:2016-10-21
+ ĞÄÇé£º
+ */
 public class $Main {
     /**
      *
-     * @param args:å½¢å‚
+     * @param args:ĞÎ²Î
      */
     public static void main(String[] args) {
-        int å¹´é¾„=100;
-        int å²æ•°=100;//pascal
-        int c='å«';
-        int c2='å´‘';
+        int ÄêÁä=100;
+        int ËêÊı=100;//pascal
+        int c='ÎÀ';
+        int c2='‹';
         char c1=20320;
-        System.out.print(c2);//å•è¡Œæ³¨é‡Š
+        System.out.print(c2);//µ¥ĞĞ×¢ÊÍ
 
         String s="";
 

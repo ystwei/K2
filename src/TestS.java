@@ -9,20 +9,20 @@ public class TestS {
 
        // System.out.println(s);
         Student s1=new Student();
-        Student s2=s1;//æŠŠs1çš„å€¼é€ç»™s2,s1é‡Œé¢å­˜çš„å°±æ˜¯å †çš„åœ°å€ï¼Œs1==s2,ä»£è¡¨ä¸€ä¸ªå †
+        Student s2=s1;//°Ñs1µÄÖµËÍ¸øs2,s1ÀïÃæ´æµÄ¾ÍÊÇ¶ÑµÄµØÖ·£¬s1==s2,´ú±íÒ»¸ö¶Ñ
         System.out.println(s1);
-        s.setName("èµµ");
+        s.setName("ÕÔ");
 
         System.out.println(s1.getName());
 
     }
 }
-class Student {//é»˜è®¤ç±»
-    Student(int old){//éé»˜è®¤æ„é€ å™¨
+class Student {//Ä¬ÈÏÀà
+    Student(int old){//·ÇÄ¬ÈÏ¹¹ÔìÆ÷
        // System.out.print(old);
     }
     Student(){
-        //é»˜è®¤æ„é€ å™¨}
+        //Ä¬ÈÏ¹¹ÔìÆ÷}
     }
     String no;
     String name;//out---read---get

@@ -23,7 +23,7 @@ public class D {
             }
 
         }else{
-            System.out.print("ä½ å¯ä»¥çœ‹æˆ‘çš„ç½‘ç«™");
+            System.out.print("Äã¿ÉÒÔ¿´ÎÒµÄÍøÕ¾");
         }
     }
 }
@@ -34,14 +34,14 @@ class D1 extends Exception{
     }
     @Override
     public String toString() {
-        return this.age+":ä½ å¤ªå°äº†";
+        return this.age+":ÄãÌ«Ğ¡ÁË";
     }
 }
 
 class D2 extends Exception{
     @Override
     public String toString() {
-        return "ä½ å¤ªè€äº†ï¼Œ";
+        return "ÄãÌ«ÀÏÁË£¬";
     }
 
 }

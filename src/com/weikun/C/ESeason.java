@@ -8,16 +8,16 @@ public enum ESeason {
     void go(){
         switch (this){
             case SPRING:
-                System.out.print("æ˜¥æš–èŠ±å¼€");
+                System.out.print("´ºÅ¯»¨¿ª");
                 break;
             case FALL:
-                System.out.print("ç§‹");
+                System.out.print("Çï");
                 break;
             case WINTER:
-                System.out.print("å†¬å¤©å¾ˆç¾");
+                System.out.print("¶¬ÌìºÜÃÀ");
                 break;
             case SUMMER:
-                System.out.print("å¤æ—¥");
+                System.out.print("ÏÄÈÕ");
                 break;
         }
 

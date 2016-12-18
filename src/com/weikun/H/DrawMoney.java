@@ -16,17 +16,17 @@ public class DrawMoney extends Thread{
     @Override
     public  void run() {
         synchronized (account) {
-            // å–é’±
-            if (account.getBalance() >= this.money) {//å¯ä»¥å–
+            // È¡Ç®
+            if (account.getBalance() >= this.money) {//¿ÉÒÔÈ¡
                 try {
                     Thread.sleep(1);
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }
                 account.setBalance(account.getBalance() - this.money);
-                System.out.println(this.getName() + "å–äº†" + this.money + "é’±");
+                System.out.println(this.getName() + "È¡ÁË" + this.money + "Ç®");
             } else {
-                System.out.println("ä½™é¢ä¸è¶³,ä¸èƒ½å–é’±");
+                System.out.println("Óà¶î²»×ã,²»ÄÜÈ¡Ç®");
             }
         }
     }

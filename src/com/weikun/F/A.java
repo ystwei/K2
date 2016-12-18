@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
  */
 public class A {
     public static void main(String[] args) {
-        //åˆ¤æ–­ä»»ä½•åˆæ³•çš„2ä½å°æ•° ï¼Œæ•´æ•°ä¹Ÿå¯ä»¥ 9.99  9   99.99  .99
+        //ÅĞ¶ÏÈÎºÎºÏ·¨µÄ2Î»Ğ¡Êı £¬ÕûÊıÒ²¿ÉÒÔ 9.99  9   99.99  .99
 //        System.out.println(Pattern.matches("^[0-9]+(\\.[0-9]{2})?$",".99"));
 //
 //
@@ -27,13 +27,13 @@ public class A {
 
         String str="Hello Java";
 
-       // System.out.println(str.replaceFirst("\\w*", "â– "));//â– ,Java
-        System.out.println(str.replaceFirst("\\w*", "â– "));
+        // System.out.println(str.replaceFirst("\\w*", "¡ö"));//¡ö,Java
+        System.out.println(str.replaceFirst("\\w*", "¡ö"));
 
 //        String str="heloWorldw";
 //
-//        System.out.println(str.replaceFirst("\\w{3,4}", "â– "));//
+//        System.out.println(str.replaceFirst("\\w{3,4}", "¡ö"));//
 //
-//        System.out.println(str.replaceAll("\\w{3,4}?", "â– "));
+//        System.out.println(str.replaceAll("\\w{3,4}?", "¡ö"));
     }
 }

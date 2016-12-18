@@ -6,7 +6,7 @@ package com.weikun.B;
 public class H {
     public static void main(String[] args) {
         String [] str = new String[2];
-        String  s[]={"å“ˆå°”æ»¨"};
+        String  s[]={"¹þ¶û±õ"};
         if (str instanceof String[]){
             System.out.print("true");
         }

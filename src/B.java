@@ -5,15 +5,15 @@ public class B {
 
     public static void main(String[] args) {
         char a='A';//0---65535====int[0---65535]
-        char b='å«';//0---65535 unicode-- GB2312 GBK GB18030 UTF-8
+        char b='ÎÀ';//0---65535 unicode-- GB2312 GBK GB18030 UTF-8
         String c="A1";
         int b1='\r';//0:48 9 A:65 Z:90 a: 97 z:122  \n:10 \b:8 \t:9 \r:13
         System.out.println(b1);
-        char c4='\u000C';//unicode ä¸­16è¿›åˆ¶ä¸º0001çš„é‚£ä¸ªå­—ç¬¦
+        char c4='\u000C';//unicode ÖĞ16½øÖÆÎª0001µÄÄÇ¸ö×Ö·û
         System.out.println(c4);
 //        String s1="";
-//        System.out.println(-2/-0.0);//è‡ªåŠ¨æå‡ infinity
-//        System.out.println("æˆ‘çˆ±ä½ ä»¬\rå—ï¼Ÿ");//
+//        System.out.println(-2/-0.0);//×Ô¶¯ÌáÉı infinity
+//        System.out.println("ÎÒ°®ÄãÃÇ\rÂğ£¿");//
 //        byte b2=100;//-128--127
 
     }

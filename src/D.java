@@ -4,42 +4,42 @@
 public class D {
     public static void main(String[] args){
        // System.out.println(17/0);//
-       // System.out.println(17.1 % 4);//æ±‚ä½™
+       // System.out.println(17.1 % 4);//ÇóÓà
        // System.out.println("17 mod 4 = "+17%4);
        // System.out.println("17 mod 4 = "+17.0%4);
        // System.out.println("17 mod 4 = "+17%0);
 //        System.out.println("17 mod 4 = "+ -17.0%0);//NAN: Not a Number
 //        System.out.println( -5% 2);
 //        System.out.println( 5% -2);
-//        System.out.println( -5% -2);//ç¬¦å·çœ‹åˆ†å­
+//        System.out.println( -5% -2);//·ûºÅ¿´·Ö×Ó
 
 
 //        int a=1;
 //        int b=2;
 //        //    1+2+2+
 //        int c=a+++2+a--+-b---a;
-//        System.out.println("açš„å€¼ä¸ºï¼š"+a);
-//        System.out.println("bçš„å€¼ä¸ºï¼š"+b);
+//        System.out.println("aµÄÖµÎª£º"+a);
+//        System.out.println("bµÄÖµÎª£º"+b);
 //        System.out.println(c);
 
 //        int a=2;
 //        int b=a+3*a++;
-//        System.out.println("açš„å€¼ä¸ºï¼š"+a);
-//        System.out.println("bçš„å€¼ä¸ºï¼š"+b);
+//        System.out.println("aµÄÖµÎª£º"+a);
+//        System.out.println("bµÄÖµÎª£º"+b);
 //        System.out.println('A'/2.0);
-          System.out.println("5å’Œ5.0æ˜¯å¦ç›¸ç­‰ï¼š" + (5== 5.0));
+          System.out.println("5ºÍ5.0ÊÇ·ñÏàµÈ£º" + (5== 5.0));
           System.out.println(~0b0011);//  1100----1011 ---0100
           System.out.println(~2);//0010--->1101----1100---0011
           System.out.println(2&3);//0010&0011=0010
         System.out.println(2|3);//0010|0011=0011
         System.out.println(2^3);//0010^0011=0001
         System.out.println(71>>4);// 0010 00>>2=0000 1000  71/2(4)=4
-        System.out.println(64>>>4);//æ— ç¬¦å·å³ç§»
+        System.out.println(64>>>4);//ÎŞ·ûºÅÓÒÒÆ
         System.out.println(2<<2);//atom
       //  System.out.println(2<<4);// 0000 0010<<4=0010 0000=2*2(4)=32
-        //æ¢… a0 b1 c3
-        //èµµæ´‹ a0 b1 c2
-        //åˆ˜ a0 b1 c3
+        //Ã· a0 b1 c3
+        //ÕÔÑó a0 b1 c2
+        //Áõ a0 b1 c3
     }
 
 }

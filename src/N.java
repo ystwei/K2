@@ -19,7 +19,7 @@ public class N {
         int lo=0;
         int hi=a.length-1;
         while(lo<=hi){
-            //mid:ç›¸å¯¹ä¸­é—´çš„ç´¢å¼•å·
+            //mid:Ïà¶ÔÖÐ¼äµÄË÷ÒýºÅ
             int mid=(lo+hi)/2;
             if(key<a[mid]){//
                 hi=mid-1;
@@ -62,7 +62,7 @@ public class N {
         int a[]={1,2,3,4,5};
         int b[]={6,7,8,9,10};
 
-        System.arraycopy(a,1 , b,2 , 4);//è¶Šç•Œäº†ï¼Œ
+        System.arraycopy(a,1 , b,2 , 4);//Ô½½çÁË£¬
         for(int i:b){
             System.out.println(i);
 
@@ -86,7 +86,7 @@ public class N {
             sum+=a[i];
 
         }
-        System.out.print("å¹³å‡æ•°æ˜¯ï¼š"+sum/a.length);
+        System.out.print("Æ½¾ùÊýÊÇ£º"+sum/a.length);
 
     }
     static void copyAry(){

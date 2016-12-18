@@ -19,7 +19,7 @@ public class Animal {
     public void setSex(char sex){
        if(sex!='M'){
            sex='M';
-           System.out.println("ä½ å‚»Xå•Š");
+           System.out.println("ÄãÉµX°¡");
            return;
        }
        this.sex=sex;

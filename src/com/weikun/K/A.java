@@ -11,7 +11,7 @@ public class A implements Runnable{
     }
     @Test
     public void test(){
-        ThreadGroup g1=new ThreadGroup("Aç»„");
+        ThreadGroup g1=new ThreadGroup("A×é");
 
         Thread t1=new Thread(g1,this);
         t1.setName("A");
@@ -27,11 +27,11 @@ public class A implements Runnable{
         t3.setName("C");
         t3.start();
 
-        Thread[] ts=new Thread[g1.activeCount()];//æ´»åŠ¨çš„æ•°é‡
+        Thread[] ts=new Thread[g1.activeCount()];//»î¶¯µÄÊıÁ¿
 
         int count=g1.enumerate(ts);
         for(int i=0;i<count;i++){
-            System.out.println(ts[i].getName()+"è¢«å‘ç°äº†ï¼");
+            System.out.println(ts[i].getName()+"±»·¢ÏÖÁË£¡");
         }
 
 
