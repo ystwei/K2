@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-/**
+/**`
  * Created by Administrator on 2016/12/18.
  */
 public class MyClient{
