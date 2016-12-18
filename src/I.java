@@ -2,7 +2,7 @@
  * Created by Administrator on 2016/10/29.
  */
 public class I {
-    static void half(int m){//int：基本类型，就是基本类型的值传递
+    static void half(int m){//int????????????????????????????
         m=m/2;
         System.out.println(m);
     }
@@ -10,12 +10,12 @@ public class I {
 
         //20 40 60
         int old=45;
-        if( (old>20)&&(old<40)  ){//区间式
+        if( (old>20)&&(old<40)  ){//?????
 
-            System.out.print("青年人");
+            System.out.print("??????");
         }else if((old>40)&&(old<60)){
 
-            System.out.print("中年人");
+            System.out.print("??????");
         }
     }
 
@@ -36,9 +36,9 @@ public class I {
 
         }
     }
-    static void ok(){//闰年
+    static void ok(){//????
         int i=200;
-        if(i==100){//如果i等于100
+        if(i==100){//???i????100
 
            System.out.print("ok");
         }else{
