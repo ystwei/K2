@@ -11,7 +11,10 @@ public class A {
     @Test
     public void add(){
         Connection conn=null;
+
+
         PreparedStatement pstmt=null;
+
 
         try {
             Class.forName("org.gjt.mm.mysql.Driver");
