@@ -15,6 +15,7 @@ public class A {
 
         try {
             Class.forName("org.gjt.mm.mysql.Driver");
+
             conn=DriverManager.
                     getConnection("jdbc:mysql://127.0.0.1/bz?useUnicode=true&characterEncoding=utf-8","root","root");
             String sql="insert into a(v_name,v_sex,v_salary) values(?,?,?)";
