@@ -139,6 +139,7 @@ public class A {
             try {
                 if(pstmt!=null){
                     pstmt.close();
+
                 }
                 if(conn!=null){
                     conn.close();
